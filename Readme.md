@@ -26,7 +26,7 @@ To execute the code, use the following command format:
 ./ParaKplex -f ./DIMACS10/fe-4elt2 -k 3 -t 1000
 ```
 
-### **Output**
+**Output**
 
 ```
 instance ./DIMACS10_84/fe-4elt2 k 3 size 6 time 0.000167129
