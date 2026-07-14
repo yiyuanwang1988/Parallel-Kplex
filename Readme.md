@@ -16,7 +16,7 @@ g++ -O3 -pthread -o ParaKplex splex_big.cpp
 
 To execute the code, use the following command format:
 ```
-./ParaKplex -f <filename> -s <parameter> -t <max seconds> [-o optimum object] [-n threads]
+./ParaKplex -f <filename> -k <parameter> -t <max seconds> [-o optimum object] [-n threads]
 ```
 **Note:** ```<>``` indicates required parameters; ```[]``` indicates optional parameters. The default value for ```-o``` is ```999999```, and the default for ```-n``` is ```10``` threads.
 
